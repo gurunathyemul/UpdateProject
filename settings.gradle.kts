@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "UpdateProject"
-include(":app")
- 
+include(":presentation")
+include(":data")

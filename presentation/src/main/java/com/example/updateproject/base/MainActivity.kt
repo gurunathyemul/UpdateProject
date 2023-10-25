@@ -1,16 +1,12 @@
-package com.example.updateproject
+package com.example.updateproject.base
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import com.example.updateproject.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d(TAG, "onCreate: ")
-    }
-    companion object{
-        private const val TAG = "MainActivity"
     }
 }
