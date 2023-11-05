@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="mViewModel"
+            type="com.example.updateproject.base.BaseAndroidViewModel" />
+
+        <variable
+            name="obj"
+            type="java.lang.String" />
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+
+        <variable
+            name="selectedPosition"
+            type="java.lang.Integer" />
+
+        <variable
+            name="mTextVisibility"
+            type="java.lang.Boolean" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".base.MainActivity">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
